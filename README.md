@@ -1,6 +1,5 @@
 66# Heart Disease Prediction: Exploratory Data Analysis (EDA) and Machine Learning
 
-![Heart Disease](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Heart_coronary_artery_disease.svg/1200px-Heart_coronary_artery_disease.svg.png)
 
 ## Overview
 
@@ -28,9 +27,7 @@ This README covers the entire data exploration process, insights drawn from vari
 - Converted relevant columns (`ca` and `thal`) to numeric types.
 - Dropped rows with missing values to ensure clean analysis.
 
-### 2. Target Variable Distribution
-
-![Target Variable Distribution](images/target_distribution.png)  <!-- Replace with your actual graph image path -->
+### 2. Target Variable Distributio
 
 - The dataset shows a mild class imbalance.
 - More patients have heart disease (target=1) than not (target=0) after binarization.
@@ -44,7 +41,8 @@ This README covers the entire data exploration process, insights drawn from vari
 - **Cholesterol and Blood Pressure**: Right-skewed with some outliers indicating higher risk.
 - **Oldpeak** (ST depression): Most low values, with a tail for higher risk patients.
 
-![Histograms of Numerical Features](images/numerical_histograms.png)
+<img width="1220" height="913" alt="image" src="https://github.com/user-attachments/assets/706985f3-38d1-449c-8efa-e0357f5fcd6f" />
+
 
 #### Categorical Features Distribution
 
@@ -52,7 +50,8 @@ This README covers the entire data exploration process, insights drawn from vari
 - **Chest Pain Type (`cp`)**: Most common type is asymptomatic or atypical angina.
 - **Thalassemia and Vessel Count (`thal`, `ca`)**: Shows reasonable spread and some missing data initially.
 
-![Categorical Feature Distributions](images/categorical_countplots.png)
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/869e81e8-48d8-4121-8089-1a881b3c7b32" />
+
 
 ### 4. Bivariate Analysis
 
@@ -64,8 +63,8 @@ This README covers the entire data exploration process, insights drawn from vari
   - Heart disease more common in males
   - Certain chest pain types and exercise-induced angina strongly linked with disease presence
 
-![Boxplot Age vs Target](images/age_vs_target_boxplot.png)  
-![Chest Pain by Target](images/cp_by_target_countplot.png)
+<img width="562" height="455" alt="image" src="https://github.com/user-attachments/assets/ad448e5d-cd04-4b51-8ea8-ca6ac8e14e5d" />
+
 
 ### 5. Correlation Analysis
 
@@ -73,14 +72,15 @@ This README covers the entire data exploration process, insights drawn from vari
   - `thalach` and `oldpeak` moderately correlated with heart disease.
   - Some inter-feature correlations suggesting possible multicollinearity but mostly independent.
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+<img width="819" height="725" alt="image" src="https://github.com/user-attachments/assets/39271f49-fbe9-4b91-a476-72214f464d0e" />
+
 
 ### 6. Multivariate Analysis
 
 - Pairplots comparing subsets of features help visualize clustering of patients by disease status.
 - Revealed complex interactions not captured in univariate plots, motivating feature engineering.
 
-(<<img width="1301" height="1275" alt="image" src="https://github.com/user-attachments/assets/ab19db96-5546-44e3-8145-8bb785bbe485" />
+<<img width="1301" height="1275" alt="image" src="https://github.com/user-attachments/assets/ab19db96-5546-44e3-8145-8bb785bbe485" />
 ---
 
 ## Key EDA Insights
@@ -135,9 +135,4 @@ This README covers the entire data exploration process, insights drawn from vari
 
 Thank you for reviewing this project. The detailed EDA presented here reveals nuanced insights into heart disease predictors and sets the foundation for effective machine learning models.
 
----
-
-*Note*: Replace all `![Alt Text](images/filename.png)` with actual paths or links to your saved EDA graphs/images in the repo, or alternatively, embed plots dynamically in notebooks.
-
----
 
