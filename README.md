@@ -1,4 +1,4 @@
-# Heart Disease Prediction: Exploratory Data Analysis (EDA) and Machine Learning
+66# Heart Disease Prediction: Exploratory Data Analysis (EDA) and Machine Learning
 
 ![Heart Disease](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Heart_coronary_artery_disease.svg/1200px-Heart_coronary_artery_disease.svg.png)
 
@@ -80,9 +80,7 @@ This README covers the entire data exploration process, insights drawn from vari
 - Pairplots comparing subsets of features help visualize clustering of patients by disease status.
 - Revealed complex interactions not captured in univariate plots, motivating feature engineering.
 
-![Pairplot of Selected Features](<<img width="1301" height="1275" alt="image" src="https://github.com/user-attachments/assets/ab19db96-5546-44e3-8145-8bb785bbe485" />
-)
-
+(<<img width="1301" height="1275" alt="image" src="https://github.com/user-attachments/assets/ab19db96-5546-44e3-8145-8bb785bbe485" />
 ---
 
 ## Key EDA Insights
