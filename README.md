@@ -80,7 +80,8 @@ This README covers the entire data exploration process, insights drawn from vari
 - Pairplots comparing subsets of features help visualize clustering of patients by disease status.
 - Revealed complex interactions not captured in univariate plots, motivating feature engineering.
 
-![Pairplot of Selected Features](images/pairplot_subset.png)
+![Pairplot of Selected Features](<<img width="1301" height="1275" alt="image" src="https://github.com/user-attachments/assets/ab19db96-5546-44e3-8145-8bb785bbe485" />
+)
 
 ---
 
@@ -132,16 +133,7 @@ This README covers the entire data exploration process, insights drawn from vari
 - matplotlib, seaborn for visualization
 - scikit-learn for modeling
 
----
 
-## Contact
-
-For questions or suggestions, please reach out:
-
-- Your Name – [your.email@example.com](mailto:your.email@example.com)  
-- GitHub: [https://github.com/your_username](https://github.com/your_username)
-
----
 
 Thank you for reviewing this project. The detailed EDA presented here reveals nuanced insights into heart disease predictors and sets the foundation for effective machine learning models.
 
