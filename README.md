@@ -153,12 +153,15 @@ To replicate this analysis, follow these steps:
 
 3.  **Install the required libraries:**
     ```bash
-    pip install -r requirements.txt
+    pip install - import pandas as pd
+                  import numpy as np
+                  import seaborn as sns
+                  import matplotlib.pyplot as plt
     ```
  
 4.  **Run the Jupyter Notebook:**
     ```bash
-    jupyter notebook "Machine_Learning_CA1 (2).ipynb"
+    jupyter notebook "Machine_Learning_CA1.ipynb"
     ```
 
 ---
