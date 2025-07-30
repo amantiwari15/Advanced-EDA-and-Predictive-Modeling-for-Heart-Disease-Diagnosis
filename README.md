@@ -141,8 +141,8 @@ To replicate this analysis, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[YOUR_USERNAME]/[YOUR_REPOSITORY_NAME].git
-    cd [YOUR_REPOSITORY_NAME]
+    git clone (https://github.com/amantiwari15/Advanced-EDA-and-Predictive-Modeling-for-Heart-Disease-Diagnosis/tree/main)
+    cd [Advanced-EDA-and-Predictive-Modeling-for-Heart-Disease-Diagnosis]
     ```
 
 2.  **Create a virtual environment (recommended):**
@@ -155,8 +155,7 @@ To replicate this analysis, follow these steps:
     ```bash
     pip install -r requirements.txt
     ```
-    *(Note: You will need to create a `requirements.txt` file by running `pip freeze > requirements.txt` in your local environment after installing the libraries.)*
-
+ 
 4.  **Run the Jupyter Notebook:**
     ```bash
     jupyter notebook "Machine_Learning_CA1 (2).ipynb"
